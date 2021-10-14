@@ -17,6 +17,15 @@ A disassembler is a computer program that translates machine language into assem
 Run the executable on a file containing machine language to dissassemble and return all instructions in the input file as assembly language.
 
 ```console
+$ cat sample_input.txt
+11111011011101111100111011100011
+00000011001010110001100010100011
+00000000000000101100011000110111
+00000000000100000000000001110011
+00000000000000000000000001110011
+00000000111101110100010001100011
+00000000000000001000000001100111
+11111111110000010000000100010011
 $ ./r5dis sample_input.txt
 0:      blt a5, s7, -68
 4:      sh s2, 49(s6)
