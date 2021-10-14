@@ -1,0 +1,20 @@
+void readFile (char* fileName);
+void dissassembleInstruction(char* Instruction32Bit);
+void IFormat2(char* Instruction32Bit);
+void IFormatRegisters(char *Instruction32Bit);
+void IFormatImmediate(char *Instruction32Bit);
+void IFormat5BitImmediate(char *Instruction32Bit);
+void IFormat2Funct7(char *Instruction32Bit);
+void IFormat1(char *Instruction32Bit);
+void IFormat1Registers(char *Instruction32Bit);
+void SFormatRegisters(char *Instruction32Bit);
+void SFormat(char *Instruction32Bit);
+void UFormat(char* Instruction32Bit);
+void RFormat(char* Instruction32Bit);
+void RFormat2(char* Instruction32Bit);
+void RFormatRegisters(char* Instruction32Bit);
+void SBFormat(char* Instruction32Bit);
+void SBFormatRegisters(char* Instruction32Bit);
+void UJFormatRegisters(char* Instruction32Bit);
+void readInt(char* Instruction32Bit);
+
