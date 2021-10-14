@@ -40,7 +40,7 @@ addi s0, t0, -1
 
 ## Build Instructions
 
-Just run `make` in your console in order to build the executable!
+Just run `make` in order to build the executable!
 ```console
 $ make
 ```
