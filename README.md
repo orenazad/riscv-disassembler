@@ -14,7 +14,7 @@ A disassembler is a computer program that translates machine language into assem
 
 ## Output
 
-Run the executable on a file containing machine language to dissassemble and return all instructions in the input file.
+Run the executable on a file containing machine language to dissassemble and return all instructions in the input file as assembly language.
 
 ```console
 $ ./r5dis sample_input.txt
